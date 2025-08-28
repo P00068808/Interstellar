@@ -1,6 +1,7 @@
 {
   "name": "interstellar",
   "version": "5.2.5",
+  "description": "One of the most popular modern web proxies with blazing fast speeds and a variety of games.",
   "type": "module",
   "engines": {
     "npm": ">=7.0.0",
@@ -8,8 +9,8 @@
   },
   "scripts": {
     "start": "node index.js",
+    "build": "echo 'No build step required'",
     "format": "biome format --write .",
-    "precommit": "pnpm run format && biome check --write .",
     "lint": "biome lint --write ."
   },
   "author": "InterstellarNetwork",
